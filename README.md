@@ -16,3 +16,5 @@ Wallpaper used in the preview: alpha.wallhaven.cc/wallpaper/1…
 
 Feel free to modify everything to your needs.
 If you have any problems, questions or critique, don´t hesitate to post in the comments
+
+License: Creative Commons Attribution-Noncommercial 3.0 License
