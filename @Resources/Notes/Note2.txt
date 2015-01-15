@@ -1,0 +1,7 @@
+To edit the notes:
+1.) Click on the background or the text itself
+2.) Edit the text with your standard .txt Editor and save it
+3.) Make a click with the middle mouse button to refresh the measures
+
+Note that the skin will load Note 1 as default after restarting rainmeter!
+==> Click 3 for more information

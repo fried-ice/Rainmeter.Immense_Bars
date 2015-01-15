@@ -1,0 +1,4 @@
+If you want to customize the suite or a skin itself, middleclick on the CPU Graph, that will open the general config file (C:\\Users\"YourName"\Documents\Rainmeter\Immense Bars\!Config\!General.inc)
+Advanced Users may want to take a look at the Styles.inc in the same folder, too!
+
+==> Click 4 for more information
