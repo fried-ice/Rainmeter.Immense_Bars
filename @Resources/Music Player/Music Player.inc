@@ -9,8 +9,7 @@ Measure=Plugin
 Plugin=NowPlaying
 PlayerName=#MusicPlayerProgramName#
 PlayerType=Cover
-UpdateDivider=-1
-TrackChangeAction=!UpdateMeasure "MeasureMusicArtwork"
+TrackChangeAction=[!UpdateMeter "Artwork"]
 
 [MeasureMusicArtist]
 Measure=Plugin
@@ -84,7 +83,6 @@ Meter=Image
 MeasureName=MeasureMusicArtwork
 MeterStyle=XArtwork
 UpdateDivider=-1
-TrackChangeAction=!UpdateMeter "Artwork"
 
 ;===First line (Artist, Album)========================
 [ArtistValue]
