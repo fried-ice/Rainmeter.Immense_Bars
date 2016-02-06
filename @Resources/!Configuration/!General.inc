@@ -120,15 +120,15 @@ BarFlip=0
 ;===[HardDisk]========================================
 ;=====================================================
 ; Enter the refresh rate in seconds
-HDDUpadateDivider=120
-HDD_1=B:
-HDD_2=C:
-HDD_3=D:
-HDD_4=E:
-HDD_5=F:
-HDD_6=G:
-HDD_7=H:
-HDD_8=I:
+HDDUpadateDivider=300
+HDD_1=C:
+HDD_2=D:
+HDD_3=E:
+HDD_4=F:
+HDD_5=G:
+HDD_6=H:
+HDD_7=I:
+HDD_8=J:
 
 
 ;=====================================================
@@ -139,7 +139,7 @@ HDD_8=I:
 ; e.g. DSL 6000=6000kBit/s=1024*6144000
 NetIn=6144000
 NetOut=614400
-NetworkInterface=1
+NetworkInterface=Best
 
 
 ;=====================================================
@@ -147,8 +147,10 @@ NetworkInterface=1
 ;=====================================================
 ; See http://docs.rainmeter.net/manual/plugins/nowplaying for how to use your player
 MusicPlayerProgramName=CAD
-; Enter the path to your musicplayer큦 executable if you want to start it by clicking the icon
+; Enter the path to your musicplayer쨈s executable if you want to start it by clicking the icon
 MusicPlayerProgramLocation=D:\Programme\foobar2000\foobar2000.exe
+; Enter the name of your musicplayers executable
+MusicPlayerProgramExe=foobar2000.exe
 ; Copy your custom icon to the musicplayer ressource folder and adjust the path
 ; or use integrated icons: aimp, foobar2000, itunes, itunes_alt, lastfm, spotify, spotify_alt, vlc, winamp, wmp
 MusicplayerArtworkImage=#@#Music Player\foobar2000
@@ -176,20 +178,21 @@ UserNote5=#@#Notes/Note5.txt
 ;      This will start the program minimized at boot with the shared sensors rainmeter uses
 ;  4.) Start "HWiNFOSharedMemoryViewer.exe" located in Immense Bars\@Resources\!Configuration and search for the relevant values
 ;      Enter these values below
-;  5.) You can enable temperature output in 캟 instead of *C by clicking the gear wheel icon in the sensors window
-;  
+;  5.) You can enable temperature output in 째F instead of 째C by clicking the gear wheel icon in the sensors window
+;
 ; See http://www.hwinfo.com/forum/Thread-Rainmeter-plug-in-for-HWiNFO-2-0 for more detailed information
 
 ; If you do not want to use the HWinFO Plugin at all, set HWiNFOPluginDisabled to 1
-HWiNFOPluginDisabled=1
+HWiNFOPluginDisabled=0
 
-; Use 캜 for Celsius or 캟 for Fahrenheit
-TemperatureUnit=캜
+; Use 째C for Celsius or 째F for Fahrenheit
+TemperatureUnit=째C
 
 ; Graphics Card (GPU) Temperature
-GPUHWiNFOSensorID=0xe0002000
+GPUHWiNFOSensorID=0xe0001800
 GPUHWiNFOSeansorInstance=0x0
 GPULoadHWiNFOEntryID=0x7000000
+
 GPUTemperatureHWiNFOEntryID=0x1000000
 
 ; Processor (CPU) Temperature
@@ -199,20 +202,20 @@ CPUTemperatureHWiNFOEntryID=0x100007f
 
 ; Different Hard Disk (HDD) Temperatures
 HDD_1HWiNFOSensorID=0xf0000100
-HDD_1HWiNFOSeansorInstance=0x1
-HDD_1TemperatureHWiNFOEntryID=0x1000000
+HDD_1HWiNFOSeansorInstance=0x0
+HDD_1TemperatureHWiNFOEntryID=0x1000001
 
 HDD_2HWiNFOSensorID=0xf0000100
 HDD_2HWiNFOSeansorInstance=0x0
 HDD_2TemperatureHWiNFOEntryID=0x1000001
 
 HDD_3HWiNFOSensorID=0xf0000100
-HDD_3HWiNFOSeansorInstance=0x0
-HDD_3TemperatureHWiNFOEntryID=0x1000001
+HDD_3HWiNFOSeansorInstance=0x2
+HDD_3TemperatureHWiNFOEntryID=0x1000000
 
 HDD_4HWiNFOSensorID=0xf0000100
 HDD_4HWiNFOSeansorInstance=0x1
-HDD_4TemperatureHWiNFOEntryID=0x1000000
+HDD_4TemperatureHWiNFOEntryID=0x1000001
 
 HDD_5HWiNFOSensorID=0xf0000100
 HDD_5HWiNFOSeansorInstance=0x2
@@ -229,5 +232,3 @@ HDD_7TemperatureHWiNFOEntryID=
 HDD_8HWiNFOSensorID=
 HDD_8HWiNFOSeansorInstance=
 HDD_8TemperatureHWiNFOEntryID=
-
-

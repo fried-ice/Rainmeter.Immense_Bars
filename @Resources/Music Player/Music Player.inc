@@ -11,6 +11,12 @@ PlayerName=#MusicPlayerProgramName#
 PlayerType=Cover
 TrackChangeAction=[!UpdateMeter "Artwork"]
 
+[MesureMusicIsRunning]
+Measure=Plugin
+Plugin=Process
+ProcessName=#MusicPlayerProgramExe#
+OnChangeAction=[!Refresh]
+
 [MeasureMusicArtist]
 Measure=Plugin
 Plugin=NowPlaying
