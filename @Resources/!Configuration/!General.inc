@@ -147,7 +147,7 @@ NetworkInterface=Best
 ;=====================================================
 ; See http://docs.rainmeter.net/manual/plugins/nowplaying for how to use your player
 MusicPlayerProgramName=CAD
-; Enter the path to your musicplayer쨈s executable if you want to start it by clicking the icon
+; Enter the path to your musicplayer큦 executable if you want to start it by clicking the icon
 MusicPlayerProgramLocation=D:\Programme\foobar2000\foobar2000.exe
 ; Enter the name of your musicplayers executable
 MusicPlayerProgramExe=foobar2000.exe
@@ -178,15 +178,15 @@ UserNote5=#@#Notes/Note5.txt
 ;      This will start the program minimized at boot with the shared sensors rainmeter uses
 ;  4.) Start "HWiNFOSharedMemoryViewer.exe" located in Immense Bars\@Resources\!Configuration and search for the relevant values
 ;      Enter these values below
-;  5.) You can enable temperature output in 째F instead of 째C by clicking the gear wheel icon in the sensors window
+;  5.) You can enable temperature output in 캟 instead of 캜 by clicking the gear wheel icon in the sensors window
 ;
 ; See http://www.hwinfo.com/forum/Thread-Rainmeter-plug-in-for-HWiNFO-2-0 for more detailed information
 
 ; If you do not want to use the HWinFO Plugin at all, set HWiNFOPluginDisabled to 1
 HWiNFOPluginDisabled=0
 
-; Use 째C for Celsius or 째F for Fahrenheit
-TemperatureUnit=째C
+; Use 캜 for Celsius or 캟 for Fahrenheit
+TemperatureUnit=캜
 
 ; Graphics Card (GPU) Temperature
 GPUHWiNFOSensorID=0xe0001800

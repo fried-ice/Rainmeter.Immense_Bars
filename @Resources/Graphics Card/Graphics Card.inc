@@ -58,8 +58,9 @@ Hidden=(#HWiNFOPluginDisabled# = 1 ? 0 : 1)
 [GPULabelTemperature]
 Meter=String
 MeasureName=MeasureGPUTemperature
-Text="GPU: %1°C"
 MeterStyle=XLabel
+Text="GPU: %1"
+Postfix=#TemperatureUnit#
 Hidden=#HWiNFOPluginDisabled#
 
 [GPUSeperator]
