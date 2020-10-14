@@ -79,6 +79,9 @@ MediumBarHeight=#GraphHeight#
 MicroBarWidth=(#GraphWidth# / 3 - #GapHorizontal# * (2/3) )
 MicroBarHeight=#SmallBarHeight#
 
+NanoBarWidth=(#GraphWidth# / 4 - #GapHorizontal# * (3/4) )
+NanoBarHeight=#SmallBarHeight#
+
 ArtworkHeight=(#GraphHeight# * 2 + 10)
 ArtworkWidth=#ArtworkHeight#
 
